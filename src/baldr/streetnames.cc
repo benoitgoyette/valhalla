@@ -2,6 +2,7 @@
 #include <vector>
 
 #include <boost/optional.hpp>
+#include "midgard/logging.h"
 
 #include "baldr/streetname.h"
 #include "baldr/streetnames.h"

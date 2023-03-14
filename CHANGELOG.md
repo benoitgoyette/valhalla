@@ -1,6 +1,20 @@
 ## Release Date: 2022-??-?? Valhalla 3.3.1
 * **Removed**
 * **Bug Fix**
+   * FIXED: underflow of uint64_t cast for matrix time results [#3906](https://github.com/valhalla/valhalla/pull/3906)
+   * FIXED: update vcpkg commit for Azure pipelines to fix libtool mirrors [#3915](https://github.com/valhalla/valhalla/pull/3915)
+   * FIXED: fix CHANGELOG release year (2022->2023) [#3927](https://github.com/valhalla/valhalla/pull/3927)
+   * FIXED: avoid segfault on invalid exclude_polygons input [#3907](https://github.com/valhalla/valhalla/pull/3907)
+   * FIXED: allow \_WIN32_WINNT to be defined by build system [#3933](https://github.com/valhalla/valhalla/issues/3933)
+   * FIXED: disconnected stop pairs in gtfs import [#3943](https://github.com/valhalla/valhalla/pull/3943)
+   * FIXED: in/egress traversability in gtfs ingestion is now defaulted to kBoth to enable pedestrian access on transit connect edges and through the in/egress node [#3948](https://github.com/valhalla/valhalla/pull/3948)
+   * FIXED: parsing logic needed implicit order of stations/egresses/platforms in the GTFS feeds [#3949](https://github.com/valhalla/valhalla/pull/3949)
+   * FIXED: segfault in TimeDistanceMatrix [#3964](https://github.com/valhalla/valhalla/pull/3949)
+   * FIXED: write multiple PBFs if the protobuf object gets too big [#3954](https://github.com/valhalla/valhalla/pull/3954)
+   * FIXED: pin conan version to latest 1.x for now [#3990](https://github.com/valhalla/valhalla/pull/3990)
+   * FIXED: Fix matrix_locations when used in pbf request [#3997](https://github.com/valhalla/valhalla/pull/3997)
+   * FIXED: got to the point where the basic transit routing test works [#3988](https://github.com/valhalla/valhalla/pull/3988)
+   * FIXED: fix build with LOGGING_LEVEL=ALL [#3992](https://github.com/valhalla/valhalla/pull/3992)
 * **Enhancement**
 
 ## Release Date: 2022-01-03 Valhalla 3.3.0
